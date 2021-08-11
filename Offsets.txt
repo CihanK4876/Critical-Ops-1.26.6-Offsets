@@ -1,30 +1,42 @@
 Critical Ops 1.26.6 offsets:
 Spectator Radar = 0x1610C14, return MOV X0, #-1 and RET
+Function = get_FollowedCharacterTeamIndex
 
 Red dot Radar = 0x1730A24, return MOV X0, #1 and RET
+Function = get_SpottedLocally
 
 No Recoil = 0x173984C, return MOV X0, #0 and RET
+Function = ApplyRecoil
 
 No Spread = 0x17397A0, return MOV X0, #0 and RET
+Function = UpdateSpread
 
 No Aimpunch(idk working or no i dont tried) = 0x173995C, return MOV X0, #0
+Function = ApplyAimpunch
 
 No Flash/ Smoke/ Grenade = 0x141B084, return MOV X0, #0 and RET
+Function = Explode
 
 No Sniper Blur = 0x15ED3BC, return MOV X0, #1 and RET or just RET
+Function = set_Spread
 
 Name Spoofer = 0x1481C54, return MOV X0, #0 and RET
+its a void sorry
 
 Bypass Tutorials = 0x166CD70, 0x166CDFC, 0x166CC10, return all MOV X0, #1 and RET
+Functions = get_MenuTutorialCompleted, get_PracticeTutorialCompleted, get_GameplayTutorialCompleted
 
 Play While Banned(just bots) = 0x155CA14, return MOV X0, #1
+Function = SetRankedEnabled
 
 Always Crosshair = 0x169EE2C, return MOV X0, #1 and RET
+Function = get_Crosshair
 
 Hide Crosshair = 0x169EE2C, return MOV X0, #0 and RET
+Function = get_Crosshair
 
 Suppressor(idk working or no xD) = 0x169EF6C, return MOV X0, #1 and RET
-
+get_Suppressor
 
 
 Credits:
